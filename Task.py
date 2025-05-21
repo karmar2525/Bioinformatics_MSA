@@ -730,7 +730,7 @@ class AlignmentApp:
         self.seq_text = tk.Text(self.input_tab, height=12, width=70, bg="#e0f7fa", fg="black", font=("Consolas", 10))
         self.seq_text.pack(padx=10, pady=5)
 
-        self.upload_button = tk.Button(self.input_tab, text="📂 Upload FASTA File", command=self.upload_file,
+        self.upload_button = tk.Button(self.input_tab, text="Upload FASTA File", command=self.upload_file,
                                        bg="#00796b", fg="black")
         self.upload_button.pack(pady=10)
 
